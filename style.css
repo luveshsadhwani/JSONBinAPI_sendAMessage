@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+}
+
+.text-container {
+    background-color: lightblue;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    padding: 5px 10px;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 10px auto;
+}
