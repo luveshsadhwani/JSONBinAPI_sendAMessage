@@ -16,6 +16,11 @@ const createBin = () => {
 
   xhr.onreadystatechange = () => {
     if (xhr.readyState == XMLHttpRequest.DONE) {
+      if (xhr.status == 200) {
+        alert("Message has been sent!");
+      } else {
+        alert("Error: " + xhr.status);
+      }
       console.log(xhr.responseText);
     }
   };
